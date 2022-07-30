@@ -1,0 +1,118 @@
+body{
+    width: 100%;
+    background-color:white;
+}
+
+
+
+.header {
+    background-color: #5584AC;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:auto;
+    padding: 0% 7%;
+    }
+
+.header h1{
+    width: 45%;
+}
+
+.profile {
+    padding: 5%;
+    text-align: center;
+    color: #5584AC;
+    }
+
+.profile .Real_Array{
+    /* border-radius: 100%; */
+    width: 30%;
+    height: 250px;
+    }
+
+.profile h1{
+    color: #1DA1F2;
+    font-size: 30px;
+    }
+
+.profile .location{
+    display: flex;
+    width: 20%;
+    padding-left: 45%;
+}
+
+.location img{
+    width: 30px;
+}
+
+.passion{
+    padding: 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #5584AC;
+    color: white;
+    padding-right: 20%;
+    }
+
+    .passion .passion-detail{  
+    width: 55%;
+    }
+
+    .passion .passion-prompt{
+    width: 25%;
+    }
+
+    .passion a{
+    color: white;
+    text-decoration: none;
+}
+
+.service{
+    padding: 5%;
+    }
+
+    .service-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+    .service-group div{
+    background-color: #055052;
+    width: 20%;
+    color: white;
+    border-radius: 10px;
+    text-align:center;   
+    }
+
+    .service h2{
+    color: #1DA1F2;
+    padding-left: 7%;
+    padding-bottom: 3%;
+}
+
+.footer{
+    padding: 5%;
+    background-color: #5584AC;
+    color: white;
+    text-align: center;
+    }
+
+    .footer img{
+    width: 20px;
+    height: 20px;  
+    padding: 10px;  
+    }
+
+    .footer .logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    }
+
+    .footer a{
+    color: white;
+    text-decoration: none;
+}
